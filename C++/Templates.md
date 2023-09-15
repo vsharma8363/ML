@@ -18,20 +18,20 @@
 ```cpp
 // DONT DO THIS :( ...
 
-int CalculateMinimum(int a, int b) {
-    return a < b ? a : b;
+int CalculateMaximum(int a, int b) {
+    return a < b ? b : a;
 }
 
-double CalculateMinimum(double a, double b) {
-    return a < b ? a : b;
+double CalculateMaximum(double a, double b) {
+    return a < b ? b : a;
 }
 
 // DO THIS :) ...
 
-// Returns the minimum or b if they are equal.
+// Returns the maximum or a if they are equal.
 template<Typename T>
-T CalculateMinimum(T a, T b) {
-    return a < b ? a : b;
+T CalculateMaximum(T a, T b) {
+    return a < b ? b : a;
 }
 ```
 
