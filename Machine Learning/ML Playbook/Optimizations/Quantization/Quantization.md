@@ -1,5 +1,7 @@
 # Quantization Overview
 
+# TODO(vik): Reformat this to be an overview to quantization as outlined here: https://deci.ai/quantization-and-quantization-aware-training/, and then create a guide for cheatsheet to quantization in every library, then link to colabs where you have that info.
+
 **TLDR: Convert 32-bit floats to 8-bit integers for smaller size and faster execution**
 
 - Default: Models store weights/biases as `32-bit` FP numbers for *high-precision calculations*
