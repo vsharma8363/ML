@@ -4,8 +4,10 @@
 
 ### [Quantization](https://github.com/vsharma8363/ML/tree/main/Optimizations/Quantization)
 
-- What it is:
-    - Process of converting some/all of the numeric representation of a model (weights/biases/etc.) to integers for smaller size and faster runtime
+Allows for **faster execution** and **reduced model size**
 
-- When to use it:
-    - You need **faster execution** or **reduced model size**
+## Inference
+
+### [Embedded Execution (C++)](https://github.com/vsharma8363/ML/tree/main/Inference/Embedded%20(C%2B%2B))
+
+Allows for execution in embedded or resource-constrained devices (Only in C++)
