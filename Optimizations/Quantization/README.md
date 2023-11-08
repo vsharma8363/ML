@@ -1,6 +1,6 @@
-# Quantization Overview
+# Quantization in Tensorflow
 
-# TODO(vik): Reformat this to be an overview to quantization as outlined here: https://deci.ai/quantization-and-quantization-aware-training/, and then create a guide for cheatsheet to quantization in every library, then link to colabs where you have that info.
+**Important: Up to date information at https://www.tensorflow.org/lite/performance/post_training_quantization**
 
 **TLDR: Convert 32-bit floats to 8-bit integers for smaller size and faster execution**
 

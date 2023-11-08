@@ -1,1 +1,0 @@
-This should be the parent sheet for an ultimate guide to all optimizations.

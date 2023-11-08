@@ -46,7 +46,3 @@ Popularized by Geoffrey Hinton.
         - Dropout (Start with 0.5)
         - Regularization
         - Early Stopping
-
-## Running Models
-
-### Tensorflow Lite

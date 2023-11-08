@@ -1,1 +1,0 @@
-# TODO(vik): Reformat this to be an overview to quantization as outlined here: https://deci.ai/quantization-and-quantization-aware-training/, and then create a guide for cheatsheet to quantization in every library, then link to colabs where you have that info.
