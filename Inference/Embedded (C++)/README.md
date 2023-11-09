@@ -1,5 +1,10 @@
 # Embedded ML Inference Using C++
 
+## Table of Contents
+
+- [Executing Models on-device](#executing-models-on-embedded-devices)
+- [Concepts/Notes](#notes)
+
 ## Executing Models on Embedded Devices
 
 ### Logging Data
@@ -103,4 +108,9 @@ TfLiteTensor* output = interpreter.output(0);
 float* output_float_arr = output->data.f;
 ```
 
+## Notes
 
+### Architecture Concepts
+
+- Cascading --> Process of creating a small model that will trigger a larger model
+    - Example: "Wake word" model running to detect only 'Ok Google' and then triggering a larger model to run when wake word is detected
