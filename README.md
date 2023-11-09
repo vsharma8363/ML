@@ -18,6 +18,6 @@ Allows for **faster execution** and **reduced model size**
 
 Allows for execution in **embedded** or **resource-constrained** devices (Only in **C++**)
 
-## Data
+## Applications
 
-### [Audio](https://github.com/vsharma8363/ML/tree/main/Data/Audio)
+### [Audio](https://github.com/vsharma8363/ML/tree/main/Applications/Audio)
