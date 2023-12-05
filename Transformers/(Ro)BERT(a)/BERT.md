@@ -5,6 +5,9 @@
 - [Building BERT Applications](#building-bert-applications)
 - [General Notes](#notes)
 
+## Examples
+- [Fine-Tuning BERT with HuggingFace](examples/BERT_HuggingFace.ipynb)
+
 ---
 
 ## Building BERT Applications
@@ -19,14 +22,14 @@
 
 - Initialize BERT Model with pre-trained data
 
-- Continue training BERT with downstream task
+- Continue training BERT with downstream task (all of BERT, no freezing)
 
 ---
 
 ## Notes
 
-
-Only uses blocks of encoders from Transformers
+- Only uses blocks of encoders from Transformers
+- Introduced bidirectionality to transformer architecture
 
 **Important: No decoder stack**
 
@@ -60,3 +63,4 @@ Original Two Sentences: `The cat slept on the rug. It likes sleeping.`
 - Expected output: `IsNextSentence`
 
 It tries to predict whether the next sentence likely follows the first one, for example `The cat slept on the rug <SEP> The president was angry <SEP>` would probably return `NotNextSentence`
+
